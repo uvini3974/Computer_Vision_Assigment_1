@@ -1,15 +1,15 @@
-# 🧠 Computer Vision & Image Processing – Assignment 1 (EC7212)
+#  Computer Vision & Image Processing – Assignment 1 (EC7212)
 
 
-## 📋 Overview
+## Overview
 
 This assignment demonstrates fundamental image processing operations using Python, OpenCV, and NumPy. Each task processes a grayscale or color image (`image.jpg`) and saves the results in the `outputs/` folder.
 
 ---
 
-## 🛠️ Task Breakdown
+##  Task Breakdown
 
-### 🔹 Task 1: Intensity Level Reduction  
+### Task 1: Intensity Level Reduction  
 **Goal:** Reduce the grayscale image's intensity levels from 256 to lower levels like 2, 4, and 8.  
 **Script:** `task1_reduce_intensity.py`  
 **Method:** Quantize pixel intensities using integer division and multiplication.  
@@ -20,7 +20,7 @@ This assignment demonstrates fundamental image processing operations using Pytho
 
 ---
 
-### 🔹 Task 2: Spatial Averaging Filter  
+### Task 2: Spatial Averaging Filter  
 **Goal:** Smooth the image using average filters of size 3×3, 10×10, and 20×20.  
 **Script:** `task2_average_filter.py`  
 **Method:** Use OpenCV’s `cv2.blur()` for uniform filtering.  
@@ -31,7 +31,7 @@ This assignment demonstrates fundamental image processing operations using Pytho
 
 ---
 
-### 🔹 Task 3: Image Rotation  
+### Task 3: Image Rotation  
 **Goal:** Rotate the color image by 45° and 90° angles.  
 **Script:** `task3_rotate_image.py`  
 **Method:** Generate a rotation matrix using `cv2.getRotationMatrix2D()` and apply with `cv2.warpAffine()`.  
@@ -41,7 +41,7 @@ This assignment demonstrates fundamental image processing operations using Pytho
 
 ---
 
-### 🔹 Task 4: Block-wise Resolution Reduction  
+### Task 4: Block-wise Resolution Reduction  
 **Goal:** Simulate lower resolution by averaging non-overlapping blocks of size 3×3, 5×5, and 7×7.  
 **Script:** `task4_block_average.py`  
 **Method:** Loop through the image using the block size and replace each block with its average value.  
@@ -52,7 +52,7 @@ This assignment demonstrates fundamental image processing operations using Pytho
 
 ---
 
-## 🚀 How to Run the Code
+## How to Run the Code
 
 1. **Clone the repository**
    ```bash
