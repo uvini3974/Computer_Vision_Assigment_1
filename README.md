@@ -58,3 +58,20 @@ This assignment demonstrates fundamental image processing operations using Pytho
    ```bash
    git clone https://github.com/uvini3974/Computer_Vision_Assigment_1.git
    cd Computer_Vision_Assigment_1
+
+2. **Install Required Libraries**
+   ```bash
+   pip install opencv-python numpy matplotlib
+
+2. **Run Each Python Script**
+   ```bash
+   python task1_reduce_intensity.py
+   python task2_average_filter.py
+   python task3_rotate_image.py
+   python task4_block_average.py
+
+
+
+
+
+   
