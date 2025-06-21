@@ -7,7 +7,7 @@ This assignment demonstrates fundamental image processing operations using Pytho
 
 ---
 
-##  Task Breakdown
+##  Tasks
 
 ### Task 1: Intensity Level Reduction  
 **Goal:** Reduce the grayscale image's intensity levels from 256 to lower levels like 2, 4, and 8.  
