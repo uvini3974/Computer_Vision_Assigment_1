@@ -10,7 +10,7 @@ This assignment demonstrates fundamental image processing operations using Pytho
 ##  Tasks
 
 ### Task 1: Intensity Level Reduction  
-**Goal:** Reduce the grayscale image's intensity levels from 256 to lower levels like 2, 4, and 8.  
+**Goal:** Reduce the grayscale image's intensity levels from 256 to lower levels like 2, 4, 8,16,32.  
 **Script:** `task1_reduce_intensity.py`  
 **Method:** Quantize pixel intensities using integer division and multiplication.  
 **Output:**  
